@@ -187,4 +187,8 @@ H1 {
     color: var(--VeryDarkDesaturatedBlue);
 }
 
+HR {
+    border: 1px solid var(--DarkGray);
+}
+
 /*! PARTS */
