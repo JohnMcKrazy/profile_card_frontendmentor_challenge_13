@@ -1,0 +1,190 @@
+:root {
+    --DarkCyan: hsl(185, 75%, 39%);
+    --VeryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+    --DarkGrayishBlue: hsl(227, 10%, 46%);
+    --DarkGray: hsl(0, 0%, 59%);
+}
+
+:root {
+    --bgColor: var(--DarkCyan);
+}
+
+*,
+* *,
+*::after,
+*::before,
+* *::after,
+* *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+HTML {
+    font-size: 12px;
+}
+
+BODY {
+    position: relative;
+    color: var(--textColor);
+    background: var(--bgColor);
+    width: 100%;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+:focus {
+    outline: 2px solid red;
+    outline-offset: 0.1rem;
+}
+
+H1,
+H2,
+H3 {
+    margin: 0;
+    padding: 0;
+}
+
+IMG {
+    display: block;
+}
+
+SPAN {
+    display: block;
+}
+
+A {
+    background: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+A:visited,
+A:focus,
+A:active {
+    color: unset;
+}
+
+UL {
+    list-style: none;
+}
+
+H1,
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+H3,
+H4 {
+    color: var(--DarkGrayishBlue);
+}
+
+H3 {
+    font-size: 1.2em;
+}
+
+H4 {
+    font-size: 1em;
+}
+
+
+SVG {
+    height: 100%;
+    width: auto;
+}
+
+ARTICLE {
+    width: 100%;
+    max-width: 350px;
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.bg_container {
+    position: absolute;
+    z-index: -1;
+}
+
+.top {
+    top: 50%;
+    left: 50%;
+}
+
+.bottom {
+    bottom: 50%;
+    right: 50%;
+}
+
+.info_container {
+    position: relative;
+    padding-top: 50px;
+}
+
+.avatar {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: solid 6px white;
+}
+
+H1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.age {
+    color: var(--DarkGrayishBlue);
+    font-weight: 700;
+}
+
+.data_container {
+    padding: 2rem;
+}
+
+.stats_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem 4rem;
+}
+
+.stat_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+}
+
+.attribution P {
+    color: white;
+    font-size: 1.4em;
+    margin-top: 2rem;
+}
+
+.attribution A {
+    font-weight: 700;
+    color: var(--VeryDarkDesaturatedBlue);
+}
+
+/*! PARTS */

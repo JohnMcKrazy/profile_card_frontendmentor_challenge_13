@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet" />
+        <!-- GOOGLE FONTS -->
+        <title>Frontend Mentor | Profile card component</title>
+
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="bg_container top icon_container">
+            <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+                        <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+                        <stop stop-color="#53FFEE" offset="99.94%" />
+                    </linearGradient>
+                </defs>
+                <ellipse fill="url(#a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".5" />
+            </svg>
+        </div>
+        <div class="bg_container bottom icon_container">
+            <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+                        <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+                        <stop stop-color="#53FFEE" offset="99.94%" />
+                    </linearGradient>
+                </defs>
+                <ellipse fill="url(#a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".5" />
+            </svg>
+        </div>
+        <article>
+            <div class="card_header">
+                <img src="./images/bg-pattern-card.svg" class="header" />
+            </div>
+            <div class="info_container">
+                <img src="./images/image-victor.jpg" class="avatar" />
+                <div class="data_container">
+                    <h1>Victor Crest<span class="age">26</span></h1>
+                    <h3>London</h3>
+                </div>
+                <hr />
+                <div class="data_container stats_container">
+                    <div class="stat_card">
+                        <h2>80K</h2>
+                        <h4>Followers</h4>
+                    </div>
+                    <div class="stat_card">
+                        <h2>803K</h2>
+                        <h4>Likes</h4>
+                    </div>
+                    <div class="stat_card">
+                        <h2>1.4K</h2>
+                        <h4>Photos</h4>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="attribution">
+            <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/JohnMcKrazy" target="_blank">Jonathan Grajeda</a>.</p>
+        </div>
+    </body>
+</html>
