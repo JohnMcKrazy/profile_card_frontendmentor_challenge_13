@@ -117,12 +117,12 @@ ARTICLE {
     z-index: -1;
 }
 
-.top {
+.bottom {
     top: 50%;
     left: 50%;
 }
 
-.bottom {
+.top {
     bottom: 50%;
     right: 50%;
 }
